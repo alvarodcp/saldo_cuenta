@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="7-R7v2u35mnJfvS1FH0w">
+    <mxGraphModel dx="959" dy="1677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pYWnEASy96X1IXwUuKb3-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="440" width="690" x="110" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Inicio" vertex="1">
+          <mxGeometry height="100" width="100" x="410" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="retiro &amp;lt;= saldo" vertex="1">
+          <mxGeometry height="100" width="100" x="400" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-9" edge="1" parent="1" source="pYWnEASy96X1IXwUuKb3-4" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;innerLoopWaypoints=1;" target="pYWnEASy96X1IXwUuKb3-4" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.7738" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="400" />
+              <mxPoint x="600" y="610" />
+              <mxPoint x="270" y="610" />
+              <mxPoint x="270" y="400" />
+            </Array>
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-8" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Imprimir &quot;fondos&amp;nbsp;&lt;div&gt;insuficientes &quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="saldo = saldo - retiro" vertex="1">
+          <mxGeometry height="40" width="180" x="520" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Imprimir saldo" vertex="1">
+          <mxGeometry height="60" width="130" x="550" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sí" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-3" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Leer retiro" vertex="1">
+          <mxGeometry height="60" width="100" x="400" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mientras" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="saldo &amp;gt;= 0" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Fin" vertex="1">
+          <mxGeometry height="100" width="100" x="420" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-17" edge="1" parent="1" source="pYWnEASy96X1IXwUuKb3-16" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.512;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="450" as="sourcePoint" />
+            <mxPoint x="467.9200000000001" y="665.1599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-23" edge="1" parent="1" source="pYWnEASy96X1IXwUuKb3-4" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="pYWnEASy96X1IXwUuKb3-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-24" edge="1" parent="1" source="pYWnEASy96X1IXwUuKb3-22" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="pYWnEASy96X1IXwUuKb3-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYWnEASy96X1IXwUuKb3-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Leer saldo" vertex="1">
+          <mxGeometry height="60" width="100" x="410" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
